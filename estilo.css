@@ -1,0 +1,98 @@
+body {
+  background: #7149df;
+  background-image: url(25235.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+header {
+  border-radius: 10px;
+  box-shadow: 13px 13px 13px 7px rgb(91, 83, 117);
+  background: rgb(70, 58, 139);
+  font: normal 50pt times;
+  color: rgb(241, 236, 236);
+  padding: 50px;
+  text-decoration: underline wavy rgb(255, 255, 255);
+  text-align: center;
+  background-image: linear-gradient(
+    transparent 0%,
+    transparent 90%,
+    #1fbcf0 50%,
+    rgb(0, 0, 0) 100%
+  );
+  background-repeat: no-repeat;
+  background-size: 0% 100%;
+  background-position-x: right;
+  transition: background-size 500ms;
+}
+
+.logo {
+  position: fixed;
+  right: 20px;
+  top: 20px;
+}
+.g1 {
+  color: rgb(255, 255, 255);
+  background-color: #000000;
+  margin-left: 50px;
+  margin-bottom: 30px;
+  text-align: right;
+  font-style: italic;
+  box-shadow: 13px 13px 13px 7px rgb(91, 83, 117);
+  transition: color 0.5s 0.25s;
+}
+
+section {
+  color: rgb(5, 5, 5);
+  backdrop-filter: blur(1px);
+  -webkit-backdrop-filter: blur(10px);
+  font-weight: bold;
+  padding: 30px;
+  width: 800px;
+  margin: auto;
+  box-shadow: 13px 13px 13px 7px rgb(91, 83, 117);
+}
+section:hover {
+  backdrop-filter: blur(30px);
+  -webkit-backdrop-filter: blur(10px);
+}
+.quest:hover {
+  background-size: 100% 100%;
+  background-position-x: left;
+}
+.btn {
+  color: rgb(253, 253, 253);
+  background-color: rgb(70, 58, 139);
+}
+.quest {
+  background-image: linear-gradient(
+    transparent 0%,
+    transparent 90%,
+    rgb(255, 255, 255) 50%,
+    rgb(0, 0, 0) 100%
+  );
+  background-repeat: no-repeat;
+  background-size: 0% 100%;
+  background-position-x: right;
+  transition: background-size 500ms;
+  padding-bottom: 5px;
+  width: 700px;
+  color: rgb(247, 247, 247);
+  background-color: rgb(70, 58, 139);
+  border-radius: 5px;
+}
+#resp {
+  background-color: rgb(70, 58, 139);
+  color: white;
+
+  background-size: 100px;
+  width: 600px;
+  transition: color 0.5s 0.25s;
+  border-radius: 20px;
+}
+
+footer {
+  color: white;
+  text-align: center;
+  font-style: italic;
+}
